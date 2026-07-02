@@ -46,9 +46,15 @@ etc.):
 Dentro de la propia herramienta hay un botón **ⓘ** en la esquina superior derecha con
 esta misma información y una guía rápida de uso.
 
+## 🌙 Modo oscuro
+
+La herramienta incluye un interruptor de tema (junto al botón ⓘ) que alterna entre modo
+claro y modo oscuro. Respeta la preferencia del sistema por defecto y recuerda la
+elección en `localStorage`.
+
 ## ✨ Nota
 
-Esta herramienta está **"vibe-coded"**: creada con ayuda de IA, de forma rápida e
+Esta herramienta está **«vibe-coded»**: creada con ayuda de IA, de forma rápida e
 informal. Es útil como apoyo para repartir gastos, pero conviene revisar los resultados
 antes de darlos por definitivos.
 
