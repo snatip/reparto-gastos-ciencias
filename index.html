@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Reparto de Gastos — Delegación FC</title>
+<title>Reparto de gastos · Consejo de Estudiantes de Ciencias</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <script>
 (function () {
   try {
@@ -102,27 +103,10 @@ header {
 }
 header h1 { font-size: 1.4rem; color: var(--navy-fg); }
 header .subtitle { font-size: .85rem; color: var(--text-secondary); margin-top: .15rem; }
-.logo-mark {
-  width: 42px; height: 42px;
-  position: relative;
-  flex-shrink: 0;
-}
-.logo-mark::before {
-  content: "";
-  position: absolute; inset: 0;
-  border: 6px solid var(--red);
-  border-radius: 50%;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  transform: rotate(-45deg);
-}
-.logo-mark::after {
-  content: "";
-  position: absolute; bottom: 1px; right: 1px;
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  background: var(--navy);
-}
+.logo-mark { height: 42px; width: auto; flex-shrink: 0; }
+.logo-oscuro { display: none; }
+:root[data-theme="dark"] .logo-claro { display: none; }
+:root[data-theme="dark"] .logo-oscuro { display: inline; }
 .header-text { flex: 1; min-width: 0; }
 .header-actions { display: flex; align-items: center; gap: .5rem; flex-shrink: 0; }
 
@@ -561,10 +545,10 @@ header .subtitle { font-size: .85rem; color: var(--text-secondary); margin-top: 
 <body>
 <div id="app">
   <header>
-    <div class="logo-mark"></div>
+    <img class="logo-mark logo-claro" src="logo_consejo_mini.svg" alt="Consejo de Estudiantes de Ciencias"><img class="logo-mark logo-oscuro" src="logo_consejo_mini_blanco.svg" alt="">
     <div class="header-text">
       <h1>Reparto de Gastos</h1>
-      <div class="subtitle">Delegación de Estudiantes — Facultad de Ciencias, Universidad de Zaragoza</div>
+      <div class="subtitle">Consejo de Estudiantes · Facultad de Ciencias, Universidad de Zaragoza</div>
     </div>
     <div class="header-actions">
       <button class="icon-btn theme-toggle-btn" id="theme-toggle-btn" type="button" aria-pressed="false" title="Cambiar a modo oscuro">🌙</button>
