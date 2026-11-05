@@ -1,12 +1,12 @@
-# Reparto de Gastos — Delegación FC
+# Reparto de gastos · Consejo de Estudiantes de Ciencias
 
 Herramienta web para repartir el coste de una lista de gastos (conceptos) entre varios
 pagadores, según el porcentaje, fracción o peso relativo que le corresponda a cada uno.
 Calcula varias alternativas de asignación y muestra la que mejor se ajusta a los
 objetivos de reparto.
 
-Creada para la Delegación de Estudiantes de la Facultad de Ciencias, Universidad de
-Zaragoza.
+Creada para el Consejo de Estudiantes de la Facultad de Ciencias (antes Delegación de
+Estudiantes), Universidad de Zaragoza.
 
 ## 🔗 Página en vivo
 
@@ -22,7 +22,7 @@ etc.):
   src="https://snatip.github.io/reparto-gastos-ciencias/"
   style="width:100%; min-height:900px; border:0"
   loading="lazy"
-  title="Reparto de Gastos — Delegación FC">
+  title="Reparto de gastos · Consejo de Estudiantes de Ciencias">
 </iframe>
 ```
 
@@ -37,8 +37,9 @@ etc.):
   ejecutan localmente en el dispositivo del usuario.
 - Lo que se introduce (pagadores, importes, conceptos) se guarda únicamente en el
   `localStorage` del navegador, nunca se envía a ningún sitio.
-- **Funciona sin conexión a internet** y es completamente **autocontenida**: es un único
-  archivo HTML con el CSS y el JavaScript incluidos, sin dependencias externas.
+- **Funciona sin conexión a internet** y es **autocontenida**: un único archivo HTML con el
+  CSS y el JavaScript incluidos, sin dependencias externas (aparte del logo y el favicon,
+  que son archivos sueltos de este repositorio; sin ellos funciona igual).
 - Puedes **descargar el archivo `index.html`** de este repositorio y abrirlo
   directamente en un navegador para usarlo de forma totalmente offline, sin depender de
   esta página ni de GitHub.
